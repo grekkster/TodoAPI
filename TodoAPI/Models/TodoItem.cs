@@ -2,11 +2,27 @@
 
 namespace TodoAPI.Models;
 
-public class TodoItem
+public record class TodoItem
 {
-	public string Name { get; set; } = default!;
-	public int Priority { get; set; }
-	public Status Status { get; set; }
+	public int Id { get; set; }
+
+	[Required(AllowEmptyStrings = false)]
+	[DisplayFormat(ConvertEmptyStringToNull = false)]
+	public string Name { get; init; } = default!;
+
+	[Required]
+	public int Priority { get; init; }
+
+	[Required]
+	public Status Status { get; init; }
+
+	public TodoItem(int id, string name, int priority, Status status)
+	{
+		Id = id;
+		Name = name;
+		Priority = priority;
+		Status = status;
+	}
 }
 
 public enum Status
