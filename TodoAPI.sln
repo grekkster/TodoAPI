@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoAPI", "TodoAPI\TodoAPI.csproj", "{D4AE5C38-F29F-4BD0-9DAD-A852A3D29587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoAPI", "TodoAPI\TodoAPI.csproj", "{D4AE5C38-F29F-4BD0-9DAD-A852A3D29587}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoAPI.Tests", "TodoAPITests\TodoAPI.Tests.csproj", "{76EB77BD-52C1-4259-80C8-B1935B1E6A82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D4AE5C38-F29F-4BD0-9DAD-A852A3D29587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4AE5C38-F29F-4BD0-9DAD-A852A3D29587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4AE5C38-F29F-4BD0-9DAD-A852A3D29587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EB77BD-52C1-4259-80C8-B1935B1E6A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EB77BD-52C1-4259-80C8-B1935B1E6A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EB77BD-52C1-4259-80C8-B1935B1E6A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EB77BD-52C1-4259-80C8-B1935B1E6A82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
